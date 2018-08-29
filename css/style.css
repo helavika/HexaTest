@@ -28,10 +28,6 @@
     src: url('../fonts/Intro-Regular.otf');
 }
 
-body {margin: 0;}
-
-
-
 .header {
 	min-height: 39px;
 	width: 100%;
@@ -250,7 +246,8 @@ body {margin: 0;}
 }
 
 .caption {
-	box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	        box-sizing: content-box;
 	height: 200px;
 	width: 500px;
 	position: absolute;
@@ -264,9 +261,8 @@ body {margin: 0;}
 	top: 20px;
 	height: 128px;
 	-webkit-transform: skew(-3deg);
-	   -moz-transform: skew(-3deg);
-	     -o-transform: skew(-3deg);
-	     transform: skew(-3deg);
+	     -ms-transform: skew(-3deg);
+	    transform: skew(-3deg);
 }
 
 .item h1 {
@@ -328,7 +324,7 @@ body {margin: 0;}
 	width: 138px;
 	height: 40px;
 	display: inline-block;
-		margin-left: 0px; 
+	margin-left: 0px; 
 }
 
 .numeral {
