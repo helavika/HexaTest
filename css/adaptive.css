@@ -1,0 +1,385 @@
+@media (min-width: 1400px){
+	.carousel-inner>.item>a>img, 
+	.carousel-inner>.item>img, 
+	.img-responsive, 
+	.thumbnail a>img, 
+	.thumbnail>img {
+	    display: block;
+	    max-width: 100%;
+	}
+
+	.slide-content {
+		position: relative;
+		background: url('../img/shadow.png') no-repeat;
+		background-size: cover;
+		background-position: -100vh 63px;
+		height: 84vh;
+		width: 87vw;
+	
+	}
+
+	.controls {
+		height: 40px;
+		width: 180px;
+		position: absolute;
+		z-index: 200;
+		top: 850px;
+		left: 13%;
+		opacity: 1;
+	}
+
+	.caption {
+		top: 30%;
+	}
+
+	.ideas {
+		top: 47%;
+	}
+
+}
+
+@media (min-width:768px) { 
+	.navbar > .container {
+	    text-align: center;
+	}
+	.navbar-header,.navbar .navbar-nav,.navbar .navbar-nav > li {
+	    float: none;
+	    display: inline-block;
+	}
+
+	.collapse.navbar-collapse {
+	    float: none;
+	    display: inline-block!important;
+	    width: auto;
+	    clear: none;
+	}
+
+	.container-fluid>.navbar-collapse, 
+	.container-fluid>.navbar-header, 
+	.container>.navbar-collapse, 
+	.container>.navbar-header {
+	    margin-right: -15px;
+	    margin-left: -15px;
+	}
+
+	.nav li:first-child {border: 0px}
+}
+
+
+
+
+@media (max-width:1024px) {
+	.slide-content {
+		position: relative;
+		background: rgba(0,0,0,0.4);
+		background-size: 150%;
+		background-position: 100vh;
+		height: 100%;
+		width: 100vw;
+	}
+
+	.price {
+		left: -70px;
+	}
+
+	.item h1 {
+		top: 0;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 6rem !important;
+		width: 420px;
+		height: 85px;
+
+	}
+
+	.controls {
+		margin-top: 60%;
+	}
+
+	.caption {
+		top: 20%;
+		left: 10%}
+
+	.carousel h2 {
+	   	top: 110px;
+	   	left: -65px;
+	   	margin-left: auto;
+		margin-right: auto;
+	}
+
+	.ideasbtn {
+		background: url(../img/numberbtn.png) no-repeat;
+		background-size: 105%;
+		background-position: center center;
+		height: 50px;
+		width: 262px;
+		position: absolute;
+		top: 45%;
+		left: 12%;
+		border-radius: 4px;
+		padding: 10px;
+		border: 2px solid white;
+	}
+
+	.ideas {
+		position: absolute;
+		display: block;
+		color: white;
+		top: 40%;
+		left: 10%;
+		width: 300px;
+		text-align: center;
+		font-size: 2rem;
+		line-height: 26px;
+		padding-bottom: 30px;
+	}
+
+	.advantages-block_content {
+		padding-top: 20px;
+	}
+
+	
+}
+
+@media (max-width:768px) {
+	.ideasbtn {
+		background: url(../img/numberbtn.png) no-repeat;
+		background-size: 105%;
+		background-position: center center;
+		height: 50px;
+		width: 262px;
+		position: absolute;
+		top: 37%;
+		left: 12%;
+		border-radius: 4px;
+		padding: 10px;
+		border: 2px solid white;
+	}
+
+	.ideas {
+		position: absolute;
+		display: block;
+		color: white;
+		top: 30%;
+		left: 10%;
+		width: 300px;
+		text-align: center;
+		font-size: 2rem;
+		line-height: 26px;
+		padding-bottom: 30px;
+	}
+
+	.caption {
+		top: 10%;
+		left: 10%
+	}
+
+	.controls {
+		margin-top: 15%;
+	}
+
+	.navbar-nav {float: none;}
+
+	.advantages-item {
+	    width: 250px;
+	}
+
+}
+
+
+@media (max-width: 532px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+
+    .advantages-block {
+    	box-sizing: border-box;
+		height: auto;
+		position: absolute;
+		background-color: rgba(255,255,255,0.8);
+		z-index: 301;
+		top: 100vh;
+		text-align: center;
+		margin-right: 0px;
+	}
+
+	.advantages-block_content {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.advantages-item {
+		display: inline-block;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		width: 240px;
+		height: 222px
+	}
+
+	.advantages-item img {
+		height: 72px;
+		width: auto;	
+	}
+
+	.advantages-item h1 {
+		font-size: 1.6rem;
+	}
+
+
+	.advantages-item p {
+		line-height: 13px;
+		font-size: 1.2rem;
+		width: 199px;
+	}	
+
+	.logo_area {display: none}
+	.number_area {
+		float: none !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		display: block;
+	}
+
+	.navbar-brand {
+		display: block;
+	}
+
+	.caption {
+		box-sizing: content-box;
+		min-height: 200px;
+		width: 300px;
+		position: absolute;
+		top: 50px;
+		left: 0;	
+	}
+
+	.line {
+		display: none;
+	}
+
+	.item h1 {
+		top: 0;
+		margin-left: auto;
+		margin-right: auto;
+		font-size: 4rem !important;
+		width: 320px;
+		height: 55px;
+
+	}
+
+	.carousel h2 {
+	   	top: 90px;
+	   	left: 0px;
+	   	margin-left: auto;
+		margin-right: auto;
+	}
+
+	.price {
+		position: relative;
+	   	top: 80px;
+	   	left: 0px;
+	}
+
+
+	.slide-content {
+		position: relative;
+		background: rgba(0,0,0,0.4);
+		background-size: 150%;
+		background-position: 100vh;
+		height: 100%;
+		width: 100vw;
+		
+	}
+
+	.ideas {
+		position: relative;
+		display: block;
+		color: white;
+		top: 250px;
+		left: 0;
+		width: 300px;
+		text-align: center;
+		font-size: 2rem;
+		line-height: 26px;
+		display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+
+
+	}
+
+	.ideasbtn {
+		background: url(../img/numberbtn.png) no-repeat;
+		background-size: 105%;
+		background-position: center center;
+		height: 50px;
+		width: 262px;
+		position: relative;
+		top: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 4px;
+		border: 2px solid white;
+		left: 0;
+		display: inline-block;
+	}
+
+	.ideasbtn a {
+		font-size: 2rem;
+		text-transform: uppercase;
+		font-family: ProximaNova Bold;
+		color: white !important;	
+	}
+
+	.carousel .item {
+	    text-align: center;
+	    height: 92vh !important;
+	}
+
+	.controls {
+		margin-top: 45%;
+		text-align: center;
+		margin-left: 5%;
+	}
+
+	.navbar-header .logo {
+	    font-size: 2rem;
+	}
+
+	.navbar-header .sublogo {
+	    font-size: 0.9rem;
+	    margin-top: 5px;
+	    margin-left: 5px;
+	}
+}
